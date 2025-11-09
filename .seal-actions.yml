@@ -1,6 +1,6 @@
 meta:
   schema-version: 0.1.0
-  created-on: "2025-11-08T07:35:43Z"
+  created-on: "2025-11-09T08:35:41Z"
   cli-version: 0.2.0
 projects:
   DB331106249C2F96C57D6B6EB0AD8940308AE637:
@@ -11,9 +11,9 @@ projects:
       name: maven
       version: ""
     overrides:
-      commons-beanutils:commons-beanutils:
-        1.9.4:
-          use: 1.9.4+sp1
       org.springframework:spring-beans:
         3.0.6.RELEASE:
           use: 3.0.6.RELEASE+sp1
+      commons-beanutils:commons-beanutils:
+        1.9.4:
+          use: 1.9.4+sp1
